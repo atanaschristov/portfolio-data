@@ -23,6 +23,9 @@ jobs:
           node-version: 24
 
       - name: Clean public directory
+        run: npm i
+
+      - name: Clean public directory
         run: npm run clean
 
       - name: Copy To Public
