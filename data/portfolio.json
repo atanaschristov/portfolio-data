@@ -1,0 +1,225 @@
+{
+	"personalInfo": {
+		"name": "Atanas Christov",
+		"role": "Software Engineer with a recent emphasis on Frontend Development",
+		"pictures": ["/images/avatar/avatar-128x128.png", "/images/avatar/me1.jpg", "/images/avatar/me2.jpg"],
+		"bio": "9 years of experience as a front-end developer, 5 years of experience as a system network developer. Passionate about creating things useful for people, learning new technologies, and open-source. Currently focused on mastering React and TypeScript to build exceptional web applications.",
+		"email": "atanaschristov@gmail.com",
+		"phone": "+420 776 007 753",
+		"address": "Prague, Czech Republic",
+		"socialLinks": {
+			"linkedin": "https://www.linkedin.com/in/atanas-christov-50648755/",
+			"github": "https://github.com/atanaschristov",
+			"x": "https://x.com/atanaschristov"
+		}
+	},
+	"education": [
+		{
+			"id": "1",
+			"degree": "Master of Science in Software development and Technology - Software Engineering Track",
+			"institution": "IT University, Copenhagen, Denmark",
+			"url": "https://en.itu.dk/",
+			"subjects": [
+				"Interaction Design",
+				"Human Information Processing",
+				"IT Strategy",
+				"Software Architecture",
+				"System Architecture and Security",
+				"Model Driven Development",
+				"Distributed Collaboration and Development",
+				"Global Software Development",
+				"Advanced Software Engineering"
+			],
+			"period": { "start": "02/2011", "end": "06/2013" }
+		},
+		{
+			"id": "2",
+			"degree": "Bachelor in Computer Engineering",
+			"institution": "Technical University of Sofia, Bulgaria",
+			"url": "https://www.tu-sofia.bg/",
+			"subjects": [
+				"Application and system programming",
+				"Parallel programming",
+				"Operating Systems",
+				"Computer Organization and Architecture",
+				"Networking",
+				"Databases",
+				"Signals and Systems",
+				"Digital circuity"
+			],
+			"period": { "start": "09/1998", "end": "06/2002" }
+		},
+		{
+			"id": "3",
+			"degree": "Technician",
+			"institution": "Technical School of Mechanical Engineering(OTMT), Sofia, Bulgaria",
+			"url": "https://bg.wikipedia.org/wiki/%D0%A1%D0%BE%D1%84%D0%B8%D0%B9%D1%81%D0%BA%D0%B0_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0_%D0%B3%D0%B8%D0%BC%D0%BD%D0%B0%D0%B7%D0%B8%D1%8F",
+			"subjects": [
+				"Basic Mechanics",
+				"Resistance of materials",
+				"Technical Drawing",
+				"Welding",
+				"Operating manual and numerical control processing machines"
+			],
+			"period": { "start": "09/1994", "end": "06/1998" }
+		}
+	],
+	"languages": [
+		{
+			"name": "English",
+			"level": "fluent"
+		},
+		{
+			"name": "German",
+			"level": "beginner"
+		},
+		{
+			"name": "Czech",
+			"level": "beginner"
+		},
+		{
+			"name": "Bulgarian",
+			"level": "native"
+		}
+	],
+	"experience": [
+		{
+			"id": "1",
+			"position": "Front-end Software Engineer",
+			"company": "Deltatre",
+			"companyUrl": "https://www.deltatre.com/",
+			"period": { "start": "11/2018", "end": "04/2025" },
+			"projects": [
+				{ "id": "1", "name": "Project A", "url": "TODO" },
+				{ "id": "2", "name": "Project B", "url": "TODO" }
+			],
+
+			"responsibilities": [
+				"Developing and maintaining web applications using React and TypeScript.",
+				"Collaborating with designers to implement responsive UI designs.",
+				"Ensuring cross-browser compatibility among various devices."
+			]
+		},
+		{
+			"id": "2",
+			"position": "Front-end Software Engineer",
+			"company": "Massive Interactive",
+			"companyUrl": "https://www.linkedin.com/company/massive-interactive/posts/?feedView=all",
+			"period": { "start": "01/2016", "end": "10/2018" },
+			"projects": [
+				{ "id": "1", "name": "Project A", "url": "TODO" },
+				{ "id": "2", "name": "Project B", "url": "TODO" }
+			],
+
+			"responsibilities": [
+				"Developing and maintaining mostly media streaming web applications based on React written on Haxe and Typescript",
+				"Supporting various Smart TVs, Game Consoles, and set-top boxes."
+			]
+		},
+		{
+			"id": "3",
+			"position": "Freelancing Front-end Software Developer",
+			"company": "StartupCommando",
+			"period": { "start": "2015", "end": "2015" },
+			"responsibilities": ["Multiple AngularJs apps", "AngularJs,jQuery,D3.js,etc", "TODO"]
+		},
+		{
+			"id": "4",
+			"position": "Prestashop Developer",
+			"company": "EVO-CON, Obereisenheim, Germany",
+			"companyUrl": "https://www.facebook.com/eVoCONde/",
+			"period": { "start": "06/2014", "end": "12/2014" },
+			"responsibilities": [
+				"PHP Developer",
+				"Developed and customized e-commerce websites using Prestashop.",
+				"Developing plugins for Prestashop to extend its functionality.",
+				"TODO"
+			]
+		},
+		{
+			"id": "5",
+			"position": "Freelancing Front-end Software Developer",
+			"company": "self-employed",
+			"period": { "start": "2010", "end": "06/2014" },
+			"projects": [{ "id": "1", "name": "TODO", "url": "TODO" }]
+		},
+		{
+			"id": "6",
+			"position": "Software Developer",
+			"company": "Telco Systems Ltd., Sofia, Bulgaria",
+			"companyUrl": "https://www.telco.com/",
+			"period": { "start": "07/2004", "end": "12/2008" },
+			"responsibilities": [
+				"Developed and maintained operating system for telecommunications equipment using ANSI C.",
+				"Development and maintenance of network protocols.",
+				"TODO"
+			]
+		},
+		{
+			"id": "7",
+			"position": "Military Service",
+			"company": "Bulgarian Army.",
+			"period": { "start": "02/2003", "end": "06/2003" }
+		}
+	],
+	"personalProjects": [
+		{
+			"id": "1",
+			"name": "Portfolio",
+			"description": "A personal portfolio website to showcase my projects and skills.",
+			"technologies": ["React", "TypeScript", "CSS"],
+			"repo": "TODO",
+			"url": "TODO"
+		},
+		{
+			"id": "2",
+			"name": "Agnostic-CI(ACI)",
+			"description": "Agnostic-CI is a library that provides an interface for defining and handling user commands. It can be used both as part of a web app or as a node tool",
+			"technologies": [
+				"Node.js",
+				"TypeScript",
+				"React",
+				"i18next",
+				"Vite",
+				"SCSS",
+				"Jest",
+				"GitHub Actions"
+			],
+			"repo": "https://github.com/atanaschristov/agnostic-ci",
+			"url": "https://atanaschristov.github.io/agnostic-ci/"
+		}
+	],
+	"skills": [
+		{
+			"name": "JavaScript",
+			"level": 10
+		},
+		{
+			"name": "TypeScript",
+			"level": 9
+		},
+		{
+			"name": "React",
+			"level": 9
+		},
+		{
+			"name": "CSS",
+			"level": 7
+		},
+		{
+			"name": "HTML",
+			"level": 9
+		},
+		{
+			"name": "Git",
+			"level": 6
+		}
+	],
+	"interests": [
+		"Mountain tracking",
+		"Traveling and Hitchhiking",
+		"Reading books",
+		"Playing games(MUDs, Open World RPGs)"
+	],
+	"disclaimer": "© 2025 Atanas Christov. This project is open for personal and educational use. You’re free to reuse parts of it in your own projects with attribution."
+}
