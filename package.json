@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-data",
+  "version": "0.0.1",
+  "description": "A private repo serving as a data container for my personal portfolio app",
+  "license": "ISC",
+  "author": "Atanas Christov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./public",
+    "copy": "node ./scripts/copyAll2Public.js",
+    "generate": "node ./scripts/listPublic2Index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.0"
+  }
+}
