@@ -4,8 +4,6 @@
 		"role": "Software Engineer with a recent emphasis on Frontend Development",
 		"pictures": ["/images/avatar/avatar-128x128.png", "/images/avatar/me1.jpg", "/images/avatar/me2.jpg"],
 		"bio": "9 years of experience as a front-end developer, 5 years of experience as a system network developer. Passionate about creating things useful for people, learning new technologies, and open-source. Currently focused on mastering React and TypeScript to build exceptional web applications.",
-		"email": "atanaschristov@gmail.com",
-		"phone": "+420 776 007 753",
 		"address": "Prague, Czech Republic",
 		"socialLinks": {
 			"linkedin": "https://www.linkedin.com/in/atanas-christov-50648755/",
@@ -221,5 +219,5 @@
 		"Reading books",
 		"Playing games(MUDs, Open World RPGs)"
 	],
-	"disclaimer": "© 2025 Atanas Christov. This project is open for personal and educational use. You’re free to reuse parts of it in your own projects with attribution."
+	"disclaimer": "© This project is open for personal and educational use. You’re free to reuse parts of it in your own projects with attribution."
 }
