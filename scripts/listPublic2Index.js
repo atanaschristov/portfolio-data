@@ -21,7 +21,7 @@ const dataFiles = listFiles(path.join(PUBLIC_DIR, "data"), "data");
 const imageFiles = listFiles(path.join(PUBLIC_DIR, "images"), "images");
 
 const index = {
-  generated: new Date().toISOString(),
+  generatedAt: new Date().toISOString(),
   data: dataFiles.flat(Infinity),
   images: imageFiles.flat(Infinity),
 };
