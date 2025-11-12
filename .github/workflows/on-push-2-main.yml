@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 24
 
-      - name: Clean public directory
+      - name: Install the dependencies
         run: npm i
 
       - name: Clean public directory
