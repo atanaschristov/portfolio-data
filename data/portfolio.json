@@ -166,8 +166,8 @@
 			"name": "Portfolio",
 			"description": "A personal portfolio website to showcase my projects and skills.",
 			"technologies": ["React", "TypeScript", "CSS"],
-			"repo": "TODO",
-			"url": "TODO"
+			"repo": "https://github.com/atanaschristov/portfolio",
+			"url": "https://atanaschristov.github.io/portfolio/"
 		},
 		{
 			"id": "2",
