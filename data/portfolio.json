@@ -2,7 +2,11 @@
 	"personalInfo": {
 		"name": "Atanas Christov",
 		"role": "Software Engineer with a recent emphasis on Frontend Development",
-		"pictures": ["/images/avatar/avatar-128x128.png", "/images/avatar/me1.jpg", "/images/avatar/me2.jpg"],
+		"pictures": [
+			"/images/avatar/avatar-128x128.png",
+			"/images/avatar/me1.jpg",
+			"/images/avatar/me2.jpg"
+		],
 		"bio": "9 years of experience as a front-end developer, 5 years of experience as a system network developer. Passionate about creating things useful for people, learning new technologies, and open-source. Currently focused on mastering React and TypeScript to build exceptional web applications.",
 		"address": "Prague, Czech Republic",
 		"socialLinks": {
@@ -68,10 +72,6 @@
 			"level": "fluent"
 		},
 		{
-			"name": "German",
-			"level": "beginner"
-		},
-		{
 			"name": "Czech",
 			"level": "beginner"
 		},
@@ -88,14 +88,64 @@
 			"companyUrl": "https://www.deltatre.com/",
 			"period": { "start": "11/2018", "end": "04/2025" },
 			"projects": [
-				{ "id": "1", "name": "Project A", "url": "TODO" },
-				{ "id": "2", "name": "Project B", "url": "TODO" }
+				{
+					"id": "1",
+					"name": "Commentators Information System(CIS) for IOC",
+					"description": "Consuming incoming information realtime from the running live events, using GraphQL endpoints, updating the user interface as the information comes.",
+					"technologies": ["React", "TypeScript", "GraphQL", "Storybook", "Tailwind CSS"]
+				},
+				{
+					"id": "2",
+					"name": "SAAF",
+					"url": "https://saffplus.sa/en",
+					"technologies": [
+						"React",
+						"TypeScript",
+						"SCSS",
+						"Firebase",
+						"NPAW",
+						"Tizen API",
+						"WebOS API",
+						"GitHub Actions"
+					]
+				},
+				{
+					"id": "3",
+					"name": "WWE App for Tizen, WebOS, and XBOX",
+					"url": "https://www.wwe.com/",
+					"technologies": [
+						"React",
+						"TypeScript",
+						"SCSS",
+						"Firebase integration",
+						"NPAW integration",
+						"Tizen API",
+						"WebOS API",
+						"XBOX SDK",
+						"GitHub Actions"
+					]
+				},
+				{
+					"id": "4",
+					"name": "ICC tv for Tizen",
+					"technologies": [
+						"React",
+						"TypeScript",
+						"SCSS",
+						"Firebase integration",
+						"NPAW integration",
+						"Tizen API",
+						"WebOS API",
+						"XBOX SDK",
+						"GitHub Actions"
+					]
+				}
 			],
-
 			"responsibilities": [
 				"Developing and maintaining web applications using React and TypeScript.",
 				"Collaborating with designers to implement responsive UI designs.",
-				"Ensuring cross-browser compatibility among various devices."
+				"Ensuring cross-browser compatibility among various devices(mostly Samsung Tizen, LG WebOS, PlayStation4 and Xbox).",
+				"Integrating with various analytics services such as NPAW and Conviva for video as well as google analytics and Firebase."
 			]
 		},
 		{
@@ -105,13 +155,26 @@
 			"companyUrl": "https://www.linkedin.com/company/massive-interactive/posts/?feedView=all",
 			"period": { "start": "01/2016", "end": "10/2018" },
 			"projects": [
-				{ "id": "1", "name": "Project A", "url": "TODO" },
-				{ "id": "2", "name": "Project B", "url": "TODO" }
+				{
+					"id": "1",
+					"name": "DAZN",
+					"url": "https://www.dazn.com",
+					"technologies": [
+						"React",
+						"Haxe",
+						"SCSS",
+						"Shaka Player integration",
+						"Sony's WEBMAF native player integration",
+						"ExoPlayer integration",
+						"Conviva SDK integration",
+						"Google Analytics"
+					]
+				}
 			],
 
 			"responsibilities": [
-				"Developing and maintaining mostly media streaming web applications based on React written on Haxe and Typescript",
-				"Supporting various Smart TVs, Game Consoles, and set-top boxes."
+				"Developing and maintaining mostly media streaming applications based on React written on Haxe and Typescript",
+				"Ensuring cross-browser compatibility among various devices(Smart TVs(Samsung, LG, Panasonic, Sony, HISENSE, etc..), Game Consoles(PlayStation(3, 4), Xbox), Set-top boxes(FireTv, Roku, NVIDIA Shield, etc...))."
 			]
 		},
 		{
@@ -119,7 +182,23 @@
 			"position": "Freelancing Front-end Software Developer",
 			"company": "StartupCommando",
 			"period": { "start": "2015", "end": "2015" },
-			"responsibilities": ["Multiple AngularJs apps", "AngularJs,jQuery,D3.js,etc", "TODO"]
+			"responsibilities": ["Frontend app development using Angular v1.3, JQuery, D3.js"],
+			"projects": [
+				{
+					"id": "1",
+					"name": "ng-base64",
+					"descritption": "Angular service for base64 encoding/decoding",
+					"technologies": ["Angular v1.3", "grunt", "karma", "mocha", "phantomjs"],
+					"repo": "https://github.com/atanaschristov/ng-base64"
+				},
+				{
+					"id": "2",
+					"name": "angular-local-json-generator",
+					"descritption": "Angular service for generating json data locally for development purposes",
+					"technologies": ["Angular v1.3", "grunt", "jasmine", "karma"],
+					"repo": "https://github.com/atanaschristov/ng-base64"
+				}
+			]
 		},
 		{
 			"id": "4",
@@ -128,10 +207,9 @@
 			"companyUrl": "https://www.facebook.com/eVoCONde/",
 			"period": { "start": "06/2014", "end": "12/2014" },
 			"responsibilities": [
-				"PHP Developer",
-				"Developed and customized e-commerce websites using Prestashop.",
-				"Developing plugins for Prestashop to extend its functionality.",
-				"TODO"
+				"PHP developer",
+				"Developed and customized e-commerce websites using Prestashop",
+				"Developing plugins for Prestashop to extend its functionality"
 			]
 		},
 		{
@@ -164,15 +242,15 @@
 		{
 			"id": "1",
 			"name": "Portfolio",
-			"description": "A personal portfolio website to showcase my projects and skills.",
-			"technologies": ["React", "TypeScript", "CSS"],
+			"description": "That's my CV, showcasing my experience and skills.",
+			"technologies": ["React", "TypeScript", "SCSS, Vite"],
 			"repo": "https://github.com/atanaschristov/portfolio",
 			"url": "https://atanaschristov.github.io/portfolio/"
 		},
 		{
 			"id": "2",
 			"name": "Agnostic-CI(ACI)",
-			"description": "Agnostic-CI is a library that provides an interface for defining and handling user commands. It can be used both as part of a web app or as a node tool",
+			"description": "Agnostic-CI - a way to define and manage commands, translate them into actions via different interface styles(CLI, Options) meant to be used in different environments(Web, Node.js).",
 			"technologies": [
 				"Node.js",
 				"TypeScript",
@@ -210,6 +288,10 @@
 		},
 		{
 			"name": "Git",
+			"level": 6
+		},
+		{
+			"name": "Node.js",
 			"level": 6
 		}
 	],
