@@ -138,9 +138,9 @@
 						"WebOS API",
 						"XBOX SDK",
 						"GitHub Actions"
-					]
-				},
-				{ "id": "5", "etc": "And more" }
+					],
+					"etc": "And more"
+				}
 			],
 			"responsibilities": [
 				"Developing and maintaining web applications using React and TypeScript.",
@@ -169,9 +169,9 @@
 						"ExoPlayer integration",
 						"Conviva SDK integration",
 						"Google Analytics"
-					]
-				},
-				{ "id": "2", "etc": "And many more..." }
+					],
+					"etc": "And many more..."
+				}
 			],
 
 			"responsibilities": [
@@ -198,9 +198,9 @@
 					"name": "angular-local-json-generator",
 					"descritption": "Angular service for generating json data locally for development purposes",
 					"technologies": ["Angular v1.3", "grunt", "jasmine", "karma"],
-					"repo": "https://github.com/atanaschristov/ng-base64"
-				},
-				{ "id": "3", "etc": "And more" }
+					"repo": "https://github.com/atanaschristov/ng-base64",
+					"etc": "And more"
+				}
 			]
 		},
 		{
