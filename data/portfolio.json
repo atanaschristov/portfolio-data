@@ -10,8 +10,8 @@
 		"bio": "9 years of experience as a front-end developer, 5 years of experience as a system network developer. Passionate about creating things useful for people, learning new technologies, and open-source. Currently focused on mastering React and TypeScript to build exceptional web applications.",
 		"address": "Prague, Czech Republic",
 		"socialLinks": {
-			"linkedin": "https://www.linkedin.com/in/atanas-christov-50648755/",
 			"github": "https://github.com/atanaschristov",
+			"linkedin": "https://www.linkedin.com/in/atanas-christov-50648755/",
 			"x": "https://x.com/atanaschristov"
 		}
 	},
@@ -139,7 +139,8 @@
 						"XBOX SDK",
 						"GitHub Actions"
 					]
-				}
+				},
+				{ "id": "5", "etc": "And more" }
 			],
 			"responsibilities": [
 				"Developing and maintaining web applications using React and TypeScript.",
@@ -169,7 +170,8 @@
 						"Conviva SDK integration",
 						"Google Analytics"
 					]
-				}
+				},
+				{ "id": "2", "etc": "And many more..." }
 			],
 
 			"responsibilities": [
@@ -197,7 +199,8 @@
 					"descritption": "Angular service for generating json data locally for development purposes",
 					"technologies": ["Angular v1.3", "grunt", "jasmine", "karma"],
 					"repo": "https://github.com/atanaschristov/ng-base64"
-				}
+				},
+				{ "id": "3", "etc": "And more" }
 			]
 		},
 		{
@@ -213,13 +216,6 @@
 			]
 		},
 		{
-			"id": "5",
-			"position": "Freelancing Front-end Software Developer",
-			"company": "self-employed",
-			"period": { "start": "2010", "end": "06/2014" },
-			"projects": [{ "id": "1", "name": "TODO", "url": "TODO" }]
-		},
-		{
 			"id": "6",
 			"position": "Software Developer",
 			"company": "Telco Systems Ltd., Sofia, Bulgaria",
@@ -228,7 +224,7 @@
 			"responsibilities": [
 				"Developed and maintained operating system for telecommunications equipment using ANSI C.",
 				"Development and maintenance of network protocols.",
-				"TODO"
+				"TODO..."
 			]
 		},
 		{

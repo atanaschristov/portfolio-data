@@ -26,12 +26,12 @@ const index = {
   images: imageFiles.flat(Infinity),
 };
 
-console.log("content of index:", index);
-console.log("Generating public/index.json...");
+console.log('content of index:', index);
+console.log('Generating public/index.data...');
 
 fs.writeFileSync(
-  path.join(PUBLIC_DIR, "index.json"),
+  path.join(PUBLIC_DIR, 'index.data'),
   JSON.stringify(index, null, 2)
 );
 
-console.log("✅ public/index.json generated.");
+console.log("✅ public/index.data. generated.");
