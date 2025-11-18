@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2025-11-16T15:04:30.452Z",
+  "generatedAt": "2025-11-18T11:18:32.441Z",
   "data": [
+    "data/documents/AHristov.pdf",
     "data/portfolio.json"
   ],
   "images": [
     "images/avatar/avatar-128x128.png",
+    "images/avatar/me0.png",
     "images/avatar/me1.jpg",
     "images/avatar/me2.jpg"
   ]
