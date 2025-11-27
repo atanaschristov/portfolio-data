@@ -354,6 +354,22 @@
 		{
 			"name": "Redux",
 			"level": 8
+		},
+		{
+			"name": "Redux",
+			"level": 8
+		},
+		{
+			"name": "Jest",
+			"level": 8
+		},
+		{
+			"name": "GraphQL",
+			"level": 4
+		},
+		{
+			"name": "Zustand",
+			"level": 3
 		}
 	],
 	"interests": [
